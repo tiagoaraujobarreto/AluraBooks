@@ -1,9 +1,9 @@
 .cabecalho__menu-hamburguer {
-    width: 32px;
-    height: 32px;
+    width: 30px;
+    height: 30px;
     background-image: url("../img/Menu.svg");
-    background-position: center;
     background-repeat: no-repeat;
+    background-position: center;
     display: inline-block;
 }
 
@@ -19,6 +19,10 @@
     display: flex;
     align-items: center;
     
+}
+
+.container__botao {
+    display: none;
 }
 
 .container__imagem {
@@ -45,6 +49,7 @@
 .lista__menu-titulo {
     padding: 1em;
     color: var(--laranja);
+    font-weight: 700;
 }
 
 .lista__menu-link {
