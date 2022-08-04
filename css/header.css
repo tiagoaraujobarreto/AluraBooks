@@ -26,7 +26,7 @@
 }
 
 .container__imagem {
-    padding: 1em;
+    padding: 0.7em;
 }
 
 .lista__menu {
@@ -47,7 +47,6 @@
 }
 
 .lista__menu-titulo {
-    padding: 1em;
     color: var(--laranja);
     font-weight: 700;
 }
